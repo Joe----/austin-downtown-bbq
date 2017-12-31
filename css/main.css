@@ -1,0 +1,59 @@
+* { margin:0; padding:0; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+h1 {
+  margin:5px;
+}
+
+#btn {
+  width: 30px;
+}
+
+#filter {
+  display:none;
+}
+
+input[type=text] {
+    padding: 8px 8px;
+    margin: 3px 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    text-decoration: none;
+}
+
+li a:hover, li a:focus {
+    background-color: #ccc;
+    color: #000;
+}
