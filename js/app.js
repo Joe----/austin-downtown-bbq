@@ -119,7 +119,7 @@ var ViewModel = function() {
                 var str = location.title.toLowerCase();
                 var result;
                 if (str.indexOf(searchFilter) !== -1) {
-                  result = "true";
+                  result = true;
                 }
                 location.visible(result);
                 return result;
